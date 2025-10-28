@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6bz8u&-duy8yyet1_-r1_!=t5xz99+_5cpxs&!z3%-vd375yjt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.140.12.44']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.125']
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'django_bb',
         'USER': 'Haysel',
         'PASSWORD': 'canelita20',
-        'HOST': '10.140.12.209',
+        'HOST': '192.168.1.46',
         'PORT': '3306',
     }
 }
